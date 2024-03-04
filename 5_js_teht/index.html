@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tehtava1">
+        <h2>TEHTÄVÄ 1</h2>
+        <input id="num1" type="number">
+        <input id="num2" type="number">
+        <input id="num3" type="number">
+        <button onclick="sortAndDisplay1()">Järjestä painamalla tästä</button> 
+        <div id="sortedNumbers"></div>
+    </div>
+
+
+
+    <div id="tehtava2">
+        <h2>TEHTÄVÄ 2</h2>
+        <input id="teht2num1" type="number">
+        <input id="teht2num2" type="number">
+        <input id="teht2num3" type="number">
+        <input id="teht2num4" type="number">
+        <input id="teht2num5" type="number">
+        <button onclick="DisplayTheBiggest()">Näytä suurin painamalla tästä</button> 
+        <div id="dabiggestnum"></div>
+    </div>
+
+
+
+    <div id="tehtava3">
+        <h2>TEHTÄVÄ 3</h2>
+        <input id="odd_or_even" type="number">
+        <button onclick="isEven()">Paina tästä tietääksesi onko nappi tasa vai pariton</button> 
+        <div id="TASA_VAI_PARITON"></div>
+    </div>
+
+
+
+    <div id="tehtava4">
+        <h2>TEHTÄVÄ 4</h2>
+        <input id="ika" type="number">
+        <button onclick="mita_saat_ajaa()">Paina tästä tietääksesi mitä saat ajaa</button> 
+        <div id="mita_ajaa"></div>
+    </div>
+
+    <div id="tehtava5">
+        <h2>TEHTÄVÄ 5</h2>
+        <select type="text" id="dropBox" onchange="changeSelect()"> 
+            <option value="1">Suomi</option>
+            <option value="2">Ruotsi</option>
+            <option value="3">ENGLANTI</option>
+        </select>
+            
+            <div id="divText">tykkään pelata apina pelejä</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
